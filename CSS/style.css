@@ -1,0 +1,49 @@
+/* Define common colors used in the theme. */
+:root {
+  --light-pink: #faedf7;
+  --light-purple: #e5b6e4;
+}
+
+/* Define the style for the header. */
+.marginals {
+  background-image: url("../images/Clouds.png");
+  background-position: center;
+  font-family: optima;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Define the style for the background of the page. */
+.main-page {
+  font-family: optima;
+}
+
+/* Define the style for the Vue app. */
+.app {
+  background-color: var(--light-pink);
+  display: grid;
+  font-family: optima;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+/* Define the style for the images. */
+.gallery-image {
+  border-radius: 50%;
+  box-shadow: 5px 5px var(--light-purple);
+  height: 320px;
+  width: 320px;
+}
+figure {
+  margin: 0px;
+}
+figcaption {
+  font-weight: bold;
+}
+
+/* Ensure the grid reduces to one column on smaller screens. */
+@media only screen and (max-width: 1300px) {
+  .app {
+    grid-template-columns: 1fr;
+  }
+}
