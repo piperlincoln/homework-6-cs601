@@ -8,4 +8,7 @@
 ## Instructions for Running Code
   1. Follow the link in the section below.
   2. Hover over the any image to be transported back in time!
-  3. NOTE: This will not work by opening the code from a local machine, it must be hosted for the Vue component to function.
+  3. This will not work by opening the code from a local machine, it must be hosted for the Vue component to function.
+
+## Hosted Application
+Please follow this link to see the application: https://piperlincoln.github.io/homework-6-cs601/.
