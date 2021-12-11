@@ -24,6 +24,7 @@
   display: grid;
   font-family: optima;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-height: calc(100vh - 70px);
   text-align: center;
 }
 
@@ -35,7 +36,9 @@
   width: 320px;
 }
 figure {
-  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5em;
 }
 figcaption {
   font-weight: bold;
